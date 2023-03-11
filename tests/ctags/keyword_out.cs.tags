@@ -1,0 +1,6 @@
+MainÌ128Í()ÎMyClassÖ0Ïpublic void
+method:     public void MyClass :: Main()
+MyClassÌ1Ö0
+class:      MyClass
+TestOutÌ128Í(out char i)ÎMyClassÖ0Ïpublic int
+method:     public int MyClass :: TestOut(out char i)

@@ -1,0 +1,10 @@
+_create_block_colliderÌ128Í(block_sub_position)Ö0
+method:     _create_block_collider(block_sub_position)
+calculate_block_uvsÌ128Í(block_id)Ö0
+method:     calculate_block_uvs(block_id)
+idÌ128Í(a)Ö0
+method:     id(a)
+rÌ128Í(b)Ö0
+method:     r(b)
+xÌ128Í(c)Ö0
+method:     x(c)

@@ -1,0 +1,4 @@
+prototype_aÌ1024Í(int a,char * b)Ö0Ïint
+prototype:  int prototype_a(int a,char * b)
+prototype_bÌ1024Í(void)Ö0Ïvoid
+prototype:  void prototype_b(void)

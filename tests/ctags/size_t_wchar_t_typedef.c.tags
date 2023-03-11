@@ -1,0 +1,4 @@
+size_tÌ4096Ö0Ïint
+typedef:    int size_t
+wchar_tÌ4096Ö0Ïint
+typedef:    int wchar_t

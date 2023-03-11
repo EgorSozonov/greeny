@@ -1,0 +1,30 @@
+gcc  -pthread    --std=c11                                                                                                         \
+-I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include     \
+-I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid    \
+-I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0                        \
+-I/usr/include/x86_64-linux-gnu -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0        \
+-I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include                 \
+-Ictags/gnu_regex -Ictags/fnmatch -Ictags/main -Ictags/parsers -Ictags/dsl -Isrc/tagmanager -Iscintilla/src              \
+-Iscintilla/include -Iscintilla/lexilla/include -Iscintilla/lexilla/lexlib -Iscintilla/lexilla/include                   \ 
+ctags/gnu_regex/regcomp.c ctags/gnu_regex/regex.c ctags/gnu_regex/regex_internal.c ctags/gnu_regex/regexec.c             \
+ctags/main/args.c ctags/main/cmd.c ctags/main/colprint.c ctags/main/debug.c ctags/main/dependency.c                      \
+source/main.c source/about.c source/build.c source/callbacks.c source/dialogs.c source/document.c                        \
+source/editor.c source/encodings.c source/filetypes.c source/gb.c source/geanyentryaction.c                              \
+source/geanymenubuttonaction.c source/geanyobject.c source/geanywraplabel.c source/highlighting.c                        \
+source/keybindings.c source/keyfile.c source/libmain.c source/log.c source/msgwindow.c source/navqueue.c                 \
+source/notebook.c source/plugins.c source/pluginutils.c source/prefix.c source/prefs.c source/printing.c                 \
+source/project.c source/sciwrappers.c source/search.c source/sidebar.c source/socket.c source/spawn.c                    \
+source/stash.c source/symbols.c source/templates.c source/toolbar.c source/tools.c source/ui_utils.c                     \
+source/utils.c source/vte.c source/tagmanager/tm_ctags.c source/tagmanager/tm_parser.c                                   \ 
+source/tagmanager/tm_source_file.c source/tagmanager/tm_tag.c source/tagmanager/tm_workspace.c                           \
+-o _bin/greeny                                                                                                           \
+-lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 \
+-lgobject-2.0 -lglib-2.0                                                                                                 
+
+
+
+
+
+
+
+
