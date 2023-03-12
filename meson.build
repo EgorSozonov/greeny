@@ -899,7 +899,6 @@ misc = [
 	'AUTHORS',
 	'COPYING',
 	'ChangeLog',
-	'NEWS',
 	'README',
 	'THANKS',
 	'TODO'
@@ -911,7 +910,6 @@ misc_rename = [
 	'Changelog.txt',
 	'Copying.txt',
 	'Readme.txt',
-	'News.txt',
 	'Thanks.txt',
 	'Todo.txt'
 ]
